@@ -83,7 +83,7 @@ spec:
     - name: deploy
       workspaces:
         - name: manifest-dir
-          workspace: pipeline-workspace          
+          workspace: pipeline-workspace
       taskRef:
         name: openshift-client
         kind: ClusterTask
